@@ -255,18 +255,20 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .terms {
+.services, .teams, .terms .lessons {
     color:#fff;
     background: #111;
 }
 .services .title::before,
 .terms .title::before,
-.teams .title::before{
+.teams .title::before,
+.lessons .title::before{
     background: #fff;
 }
 .services .title::after,
 .terms .title::after,
-.teams .title::after{
+.teams .title::after,
+.lessons .title::after{
     background: #111;
     content: "";
 }
